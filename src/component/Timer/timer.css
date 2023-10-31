@@ -1,0 +1,38 @@
+.work-board {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+h2{
+    color: #ccc;
+}
+
+.timer{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.tile {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 5px 6px rgba(1, 1, 1, 0.858);
+    display: inline-block;
+    text-align: center;
+  }
+ button{
+    width: 100px;
+    cursor: pointer;
+    background-color: silver;
+    border-radius: 7px;
+    border: none ;
+ }
+  
+ button:hover{
+    box-shadow: 0 3px 6px rgb(12, 12, 12);
+ }
